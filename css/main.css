@@ -37,18 +37,96 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block;
 }
 
 /* ====================================
 // base rules
 // ==================================== */
 
+header {
+  text-align: center;
+}
+
+.margin {
+  margin: 0 55px 0 55px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 40px 20px 40px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
 header h1 {
   font-size: 11px;
   font-weight: 700;
+  font-family: 'Libre Franklin', sans-serif;
   background-color: red;
   color: aliceblue;
-  text-align: center;
-  margin: 0 140px 0 140px;
+  margin: 20px 140px 20px 140px;
   border-radius: 15px;
+}
+
+header h2 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 20px 0 20px 0;
+}
+
+header p {
+  font-family:'Sorts Mill Goudy', serif;
+  line-height: 1.2;
+  margin: 20px 0 20px 0;
+}
+
+header h3 {
+  font-weight: 700;
+  font-family: 'Libre Franklin', sans-serif;
+  margin: 20px 0 60px 0;
+}
+
+main{
+  background-color: rgb(221, 219, 205);
+  padding: 30px 20px 30px 20px;
+}
+
+main h1 {
+  font-family:'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+hr {
+  margin: 5px 0 15px 0;
+}
+
+.article_box {
+  background-color: aliceblue;
+  margin-bottom: 25px;
+}
+
+main p {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  padding: 15px 20px 15px 20px;
+}
+
+footer {
+  background-color: black;
+  color: aliceblue;
+  padding: 30px 25px 50px 25px;
+}
+
+footer h3 {
+  font-family:'Sorts Mill Goudy', serif;
+  font-size: 20px;
+}
+
+footer ul {
+  font-family: 'Libre Franklin', sans-serif;
+  list-style: none;
 }
